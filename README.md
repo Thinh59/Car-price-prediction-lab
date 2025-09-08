@@ -73,4 +73,4 @@ The model learns features effectively and generalizes well to unseen data.
 pip install -r requirements.txt
 
 # Launch notebook
-jupyter notebook notebooks/CarPricePrediction.ipynb
+jupyter notebook notebook/Source.ipynb
