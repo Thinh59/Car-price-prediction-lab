@@ -17,18 +17,42 @@ Best regards from Group 9!
 
 ---
 
-## 🛠 Workflow
-1. **Data Loading & Exploration**  
-   - Display dataset size, column names, and first 5 rows.
-2. **Preprocessing**  
-   - Remove text from numerical columns (`Engine`, `Max Power`, …).  
-   - Convert categorical values into numerical format (Label Encoding / One-hot Encoding).  
-   - Select relevant columns for training.  
-3. **Model Building**  
-   - Implement Linear Regression **from scratch** (no sklearn).  
-   - Define and test multiple regression formulas as required.  
-4. **Evaluation**  
-   - Compute R², MSE, and MAE on both training and test sets.
+## 🛠 Workflow  
+
+1. **Data Processing**  
+   - Load and inspect dataset (size, columns, first rows).  
+   - Handle unit inconsistencies in numerical columns.  
+   - Process missing values.  
+   - Remove low-variance categorical columns.  
+   - Encode categorical features into numerical format (Label Encoding / One-hot Encoding).  
+
+2. **Feature Selection**  
+   - Build correlation matrix to analyze relationships between features and target.  
+   - Visualize correlation heatmap.  
+   - Remove features with low correlation.  
+   - Update dataset and assign values into **X** (features) and **Y** (target).  
+
+3. **Data Splitting**  
+   - Apply **K-Fold Cross-Validation** for robust model evaluation.  
+   - Randomly shuffle and partition dataset into K folds.  
+   - Ensure equal fold sizes for training and validation.  
+
+4. **Model Training**  
+   - Explore correlations between features and target variable.  
+   - Define and implement multiple regression formulas.  
+   - Standardize features before training.  
+   - Construct feature matrix and target vector.  
+   - Implement **Normal Equation** with Ridge Regression (from scratch).  
+   - Train and evaluate models with cross-validation.  
+   - Summarize training results.  
+
+5. **Model Testing**  
+   - Load and preprocess test set in the same way as training set.  
+   - Standardize test features.  
+   - Predict car prices using trained linear regression model.  
+   - Handle dimensionality mismatches if any.  
+   - Evaluate model performance on test set (R², MSE, MAE).  
+
 
 ---
 
