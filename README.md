@@ -10,7 +10,7 @@ Best regards from Group 9!
 ---
 
 ## 📊 Dataset
-- Source: `train.csv`
+- Source: Dataset is provided by the instructor via Moodle/Google Drive, therefore not included in this repository.
 - Features (X):
   - Make, Model, Year, Kilometer, Fuel Type, Transmission, Location, Color, Owner, Seller Type, Engine, Max Power, Max Torque, DriveTrain, Length, Width, Height, Seating Capacity, Fuel Tank Capacity.
 - Target (Y): Selling Price.
