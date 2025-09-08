@@ -2,7 +2,7 @@
 This repository contains the notebook and source code for the **Car Price Prediction Lab**.  
 The main objective is to build a **Linear Regression model from scratch (without using sklearn)** to predict used car prices based on their technical features.
 
-We are Group 9 in Class 23TNT1 at Ho Chi Minh City University of Science, specializing in Advanced Programming for Artificial Intelligence.
+We are Group 9 in Class 23TNT1 at Ho Chi Minh City University of Science.
 
 We are excited to share our work with you and look forward to your feedback.
 Best regards from Group 9!
